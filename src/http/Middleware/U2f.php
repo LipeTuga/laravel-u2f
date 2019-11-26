@@ -1,10 +1,10 @@
-<?php namespace Lahaxearnaud\U2f\Http\Middleware;
+<?php namespace Lipetuga\U2f\Http\Middleware;
 
 use Closure;
 use Illuminate\Config\Repository as Config;
 use Illuminate\Support\Facades\Auth;
-use Lahaxearnaud\U2f\Models\U2fKey;
-use Lahaxearnaud\U2f\U2f as LaravelU2f;
+use Lipetuga\U2f\Models\U2fKey;
+use Lipetuga\U2f\U2f as LaravelU2f;
 use Symfony\Component\HttpKernel\Exception\HttpException;
 
 /**
@@ -12,7 +12,7 @@ use Symfony\Component\HttpKernel\Exception\HttpException;
  *
  *
  *
- * @package Lahaxearnaud\U2f\Http\Middleware
+ * @package Lipetuga\U2f\Http\Middleware
  * @author  LAHAXE Arnaud
  */
 class U2f
@@ -28,7 +28,7 @@ class U2f
      */
     protected  $config;
 
-    public function __construct(\Lahaxearnaud\U2f\U2f $u2f, Config $config)
+    public function __construct(\Lipetuga\U2f\U2f $u2f, Config $config)
     {
         $this->u2f = $u2f;
         $this->config = $config;

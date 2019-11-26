@@ -1,4 +1,4 @@
-<?php namespace Lahaxearnaud\U2f\Http\Controllers;
+<?php namespace Lipetuga\U2f\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Config\Repository as Config;
@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Event;
 use Illuminate\Support\Facades\Redirect;
-use Lahaxearnaud\U2f\U2f as LaravelU2f;
+use Lipetuga\U2f\U2f as LaravelU2f;
 
 class U2fController extends Controller
 {

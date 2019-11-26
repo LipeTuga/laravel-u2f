@@ -1,4 +1,4 @@
-<?php namespace Lahaxearnaud\U2f;
+<?php namespace Lipetuga\U2f;
 
 use Illuminate\Support\Facades\Facade;
 

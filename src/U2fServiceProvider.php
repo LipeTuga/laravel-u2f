@@ -1,4 +1,4 @@
-<?php namespace Lahaxearnaud\U2f;
+<?php namespace Lipetuga\U2f;
 
 use Illuminate\Routing\Router;
 use Illuminate\Support\ServiceProvider;
@@ -20,7 +20,7 @@ class U2fServiceProvider extends ServiceProvider
     public function boot(Router $router)
     {
         $routeConfig = [
-            'namespace' => '\Lahaxearnaud\U2f\Http\Controllers',
+            'namespace' => '\Lipetuga\U2f\Http\Controllers',
             'prefix' => '/u2f/',
             'middleware' => $this->app[ 'config' ]->get('u2f.authMiddlewareName', 'web')
         ];

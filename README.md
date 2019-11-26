@@ -23,19 +23,19 @@ Laravel 5.5+ uses Package Auto-Discovery, so doesn't require you to manually add
 ### Configs
 
 ```bash
-$ php artisan vendor:publish --provider="Lahaxearnaud\U2f\U2fServiceProvider" --tag=u2f-config
+$ php artisan vendor:publish --provider="Lipetuga\U2f\U2fServiceProvider" --tag=u2f-config
 ```
 
 ### Assets
 
 ```bash
-$ php artisan vendor:publish --provider="Lahaxearnaud\U2f\U2fServiceProvider" --tag=u2f-components
+$ php artisan vendor:publish --provider="Lipetuga\U2f\U2fServiceProvider" --tag=u2f-components
 ```
 
 ### Views
 
 ```bash
-$ php artisan vendor:publish --provider="Lahaxearnaud\U2f\U2fServiceProvider" --tag=u2f-views
+$ php artisan vendor:publish --provider="Lipetuga\U2f\U2fServiceProvider" --tag=u2f-views
 ```
 
 Note that default views use Laravel's default Bootstrap 4. If you don't use it, you have to update the views.
@@ -43,7 +43,7 @@ Note that default views use Laravel's default Bootstrap 4. If you don't use it, 
 ### Migrations
 
 ```bash
-$ php artisan vendor:publish --provider="Lahaxearnaud\U2f\U2fServiceProvider" --tag=u2f-migrations
+$ php artisan vendor:publish --provider="Lipetuga\U2f\U2fServiceProvider" --tag=u2f-migrations
 $ php artisan migrate
 ```
 
@@ -55,7 +55,7 @@ In the app/Http/Kernel.php file
  protected $routeMiddleware = [
     'auth' => \App\Http\Middleware\Authenticate::class,
     // ...
-    'u2f' => \Lahaxearnaud\U2f\Http\Middleware\U2f::class,
+    'u2f' => \Lipetuga\U2f\Http\Middleware\U2f::class,
     ];
 ```
 

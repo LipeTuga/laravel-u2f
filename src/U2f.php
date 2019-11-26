@@ -1,6 +1,6 @@
-<?php namespace Lahaxearnaud\U2f;
+<?php namespace Lipetuga\U2f;
 
-use Lahaxearnaud\U2f\Models\U2fKey;
+use Lipetuga\U2f\Models\U2fKey;
 use Illuminate\Support\Facades\Request;
 use Illuminate\Config\Repository as Config;
 use Illuminate\Session\SessionManager as Session;
@@ -11,7 +11,7 @@ use Illuminate\Contracts\Auth\Authenticatable as User;
  *
  *
  *
- * @package Lahaxearnaud\U2f
+ * @package Lipetuga\U2f
  * @author  LAHAXE Arnaud
  */
 class U2f {
