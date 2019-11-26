@@ -1,12 +1,12 @@
 {
-    "name": "lahaxearnaud/laravel-u2f",
+    "name": "LipeTuga/laravel-u2f",
     "description": "U2F support for laravel 6",
     "keywords": [
         "u2f",
         "security",
         "otp"
     ],
-    "homepage": "https://github.com/lahaxearnaud/laravel-u2f",
+    "homepage": "https://github.com/LipeTuga/laravel-u2f",
     "license": "MIT",
     "authors": [
         {
@@ -34,16 +34,16 @@
     },
     "autoload": {
         "psr-4": {
-            "Lahaxearnaud\\U2f\\": "src"
+            "LipeTuga\\U2f\\": "src"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Lahaxearnaud\\U2f\\U2fServiceProvider"
+                "LipeTuga\\U2f\\U2fServiceProvider"
             ],
             "aliases": {
-                "U2f": "Lahaxearnaud\\U2f\\U2fFacade"
+                "U2f": "LipeTuga\\U2f\\U2fFacade"
             }
         }
     }
