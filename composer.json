@@ -30,7 +30,8 @@
         "illuminate/contracts": "^6.0",
         "illuminate/view": "^6.0",
         "illuminate/translation": "^6.0",
-        "yubico/u2flib-server": "1.0.1"
+        "yubico/u2flib-server": "1.0.1",
+        "lipe-tuga/laravel-u2f": "^1.6"
     },
     "autoload": {
         "psr-4": {
