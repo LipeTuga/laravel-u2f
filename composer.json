@@ -34,16 +34,16 @@
     },
     "autoload": {
         "psr-4": {
-            "LipeTuga\\U2f\\": "src"
+            "Lipetuga\\U2f\\": "src"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "LipeTuga\\U2f\\U2fServiceProvider"
+                "Lipetuga\\U2f\\U2fServiceProvider"
             ],
             "aliases": {
-                "U2f": "LipeTuga\\U2f\\U2fFacade"
+                "U2f": "Lipeuga\\U2f\\U2fFacade"
             }
         }
     }
