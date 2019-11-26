@@ -1,5 +1,5 @@
 {
-    "name": "lipe-tuga/laravel-u2f",
+    "name": "lipetuga/laravel-u2f",
     "description": "U2F support for laravel 6",
     "keywords": [
         "u2f",
@@ -30,7 +30,7 @@
         "illuminate/contracts": "^6.0",
         "illuminate/view": "^6.0",
         "illuminate/translation": "^6.0",
-        "yubico/u2flib-server": "1.0.1"
+        "yubico/u2flib-server": "1.0.1",
     },
     "autoload": {
         "psr-4": {
@@ -43,7 +43,7 @@
                 "Lipetuga\\U2f\\U2fServiceProvider"
             ],
             "aliases": {
-                "U2f": "Lipeuga\\U2f\\U2fFacade"
+                "U2f": "Lipetuga\\U2f\\U2fFacade"
             }
         }
     }
