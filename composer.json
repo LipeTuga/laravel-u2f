@@ -1,6 +1,6 @@
 {
     "name": "lipetuga/laravel-u2f",
-    "description": "U2F support for laravel 6",
+    "description": "U2F support for laravel 7",
     "keywords": [
         "u2f",
         "security",
